@@ -4,6 +4,17 @@ body {
 
 }
 
+.heading{
+    font-family: digital;
+    color: red;
+    text-align: center;
+    font-size: 60px;
+    border: 8px solid gray;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5%;
+    background-color:black;
+}
 
 @font-face {
         font-family: digital;
@@ -19,7 +30,7 @@ body {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    margin-top: 20%;
+    margin-top: 10%;
     width: 420px;
     height: auto;
     font-family: digital;
