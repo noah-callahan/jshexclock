@@ -1,5 +1,42 @@
-#clock {
+body {
+    width: 100%;
+    height: 100%;
+
+}
 
 
+@font-face {
+        font-family: digital;
+        src: url(DS-DIGII.TTF);
+    }
+
+
+
+
+
+.clockbox {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20%;
+    width: 420px;
+    height: auto;
+    font-family: digital;
+    font-size: 60px;
+    color: red;
+    text-align: center;
+    background-color: black;
+    border: 8px solid gray;
+    border-radius: 10px;
+    position: relative;
+    
     
 }
+
+#clock {
+    line-height: 0px;
+}
+
+
+
